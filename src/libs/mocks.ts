@@ -112,6 +112,10 @@ export const generalImpressions: Record<string, Impression[]> = {
 export const technicalImpressions: Record<string, Impression[]> = {
   positive: [
     {
+      name: 'Codereview experience',
+      points: 1
+    },
+    {
       name: 'Leading experience',
       points: 1
     },
@@ -267,3 +271,29 @@ export const browserQuestions = {
 // misc
 // Didn't prepared for the interview
 // Level is not enough for customer interview and everyday routine
+
+// core
+// scope, closure, context, hoisting, types, ES features
+
+// 𝗔𝗦𝗬𝗡𝗖 𝗶𝗻 𝗝𝗦: Promises, async/await, observables, callbacks, Event loop, Micro & Macro tasks, Client-server interaction (XHR,WebSockets, Comet (long and short polling)), XHR, Fetch), HTTP protocol (v1,2, verbs, responce codes, CORS, AJAX, REST, ...)
+// DOM interaction (finding elements, events, event handling, bubbling, capturing, delegation, canceling), browsers compatibility issues, storages (Cookies, IndexedDB, localStorage, sessionStorage), service workers, web components, webRTC
+// 𝗙𝗨𝗡𝗖𝗧𝗜𝗢𝗡𝗔𝗟 𝗣𝗥𝗢𝗚𝗥𝗔𝗠𝗠𝗜𝗡𝗚: Pure function, carrying, reduce
+// 𝗚𝗥𝗔𝗣𝗛𝗜𝗖𝗦 & 𝗗𝗥𝗔𝗪𝗜𝗡𝗚: JS animation, SVG, Canvas, Three.js, D3.js
+// 𝗧𝗘𝗦𝗧𝗜𝗡𝗚: Unit tests, e2e, coverage, ...
+// 𝗧𝗬𝗣𝗘𝗦𝗖𝗥𝗜𝗣𝗧: Interfaces, generics, type guard, decorators, type compatibility
+// 𝗠𝗮𝗿𝗸𝘂𝗽: HTML5, CSS3, structure, tags, attributes, selector specificity
+// 𝗖𝗦𝗦 𝗙𝗥𝗔𝗠𝗘𝗪𝗢𝗥𝗞𝗦 & 𝗣𝗥𝗘/𝗣𝗢𝗦𝗧 𝗣𝗥𝗢𝗖𝗘𝗦𝗦𝗢𝗥𝗦: Tailwind, bootstrap, material UI, PostCSS, SCSS, SASS, Less, Stylus
+// 𝗥𝗘𝗦𝗣𝗢𝗡𝗦𝗜𝗩𝗘 + 𝗔𝗗𝗔𝗣𝗧𝗜𝗩𝗘 𝗗𝗘𝗦𝗜𝗚𝗡: Responsive vs adaptive, motivation, media query, ...
+// 𝗔𝗡𝗜𝗠𝗔𝗧𝗜𝗢𝗡𝗦: Transitions, Animation, KeyFrames, performance
+// ▶️𝗝𝗦 𝗙𝗥𝗔𝗠𝗘𝗪𝗢𝗥𝗞: React, AngularJS, Angular, VueJS, Ember. Advantages & disadvantages. Performance & optimization. Possible bottlenecks & pitfalls. ❗Please, specify the framework name in the comments section.
+// 𝗗𝗔𝗧𝗔 𝗙𝗟𝗢𝗪, 𝗦𝗧𝗔𝗧𝗘 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧: RxJs, Observables, Unidirectional data flow (Flux, redux, mobX)
+// 𝗔𝗥𝗖𝗛𝗜𝗧𝗘𝗖𝗧𝗨𝗥𝗘 & 𝗗𝗘𝗦𝗜𝗚𝗡 𝗣𝗔𝗧𝗧𝗘𝗥𝗡𝗦: MVC, REST, GOF, GRASP, SOLID
+// 𝗢𝗢𝗣: Objects, Classes, Interfaces, Mixins, Functions, Prototypes, Inheritance
+// 𝗣𝗥𝗢𝗙𝗜𝗟𝗜𝗡𝗚 & 𝗗𝗜𝗔𝗚𝗡𝗢𝗦𝗧𝗜𝗖: Performance, memory leaks, tools (Lighthouse, Webpagetest), web vs node
+// ▶️𝗖𝗟𝗢𝗨𝗗𝗦: AWS, GCP, Azure
+// ▶️𝗗𝗔𝗧𝗔 𝗦𝗧𝗥𝗨𝗖𝗧𝗨𝗥𝗘 & 𝗔𝗟𝗚𝗢𝗥𝗜𝗧𝗛𝗠𝗦: Sorting, searching, backtracking, network, etc.
+// 𝗕𝗨𝗜𝗟𝗗 𝗧𝗢𝗢𝗟𝗦 𝗮𝗻𝗱 𝗔𝗨𝗧𝗢𝗠𝗔𝗧𝗜𝗢𝗡: Webpack, Rolllup, npm, yarn,
+// 𝗚𝗜𝗧: branch strategies, file statuses, merge, rebase, reset, commit, push, pull, fetch
+// ▶️𝗦𝗢𝗙𝗧𝗪𝗔𝗥𝗘 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗠𝗘𝗡𝗧 𝗣𝗥𝗢𝗖𝗘𝗦𝗦. Environments: prod, dev, test; CI/CD,SCRUM, Code review
+// ▶️𝗡𝗢𝗗𝗘𝗝𝗦: Framework, error first function, data storing, NoSQL, transactions
+// ▶️𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬: OWASP, OAuth, Authorization & authentication
